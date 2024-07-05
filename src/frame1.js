@@ -18,7 +18,7 @@ function Frame1() {
         
         <div>
           <img 
-            src="%PUBLIC_URL%/assets/image_2024-05-12_181334664-removebg-preview.png" 
+            src="./assets/image_2024-05-12_181334664-removebg-preview.png" 
             alt="Sitting down" 
             className="mesittindown"
             
@@ -30,13 +30,13 @@ function Frame1() {
             <a href="mailto:dariawisterya@gmail.com" className="button1_frame1">Hire me</a>
           </div>
           <div className="button2_frame1 effect_frame1 effect-4">
-            <a href="/assets/Cv.pdf" download="cv.pdf"  style={{ textDecorationStyle: 'none'}}>Get CV</a>
+            <a href="./assets/Cv.pdf" download="cv.pdf"  style={{ textDecorationStyle: 'none'}}>Get CV</a>
           </div>
         </div>
         
         <div className="Apps_buttons">
           <a href="https://www.facebook.com/daria.giotina.1" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/facebook.png" className="Facebook" alt="Facebook" />
+            <img src="./assets/facebook.png" className="Facebook" alt="Facebook" />
           </a>
           <a href="https://ro.linkedin.com/in/dariamaria-giotina?original_referer=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank" rel="noopener noreferrer">
             <img src="/assets/linkedin.png" className="Linkedin" alt="Linkedin" />
