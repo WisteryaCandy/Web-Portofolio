@@ -1,0 +1,735 @@
+@media screen and (min-width: 991px){
+  
+
+  .Frame1{
+    overflow-y: hidden;
+    height: 100%;
+
+  }
+  .background_block1 {
+    position: relative;
+    background-color: #E6DAE7;
+    width: 57%;
+    height: 600px;
+    right: -43%;
+    border-radius: 0 7px 0 0;
+    
+  }
+  
+  .Hello_line {
+    position: relative;
+    width: 50px;
+    height: 7px;
+    background-color: #845988;
+    border-radius: 20px;
+    left: 195px;
+    top: 20%;
+  }
+  .mesittindown{
+    left: -300px;
+    max-width: 1000px;
+    height: auto;
+  }
+  
+  .Hello {
+    position: relative;
+    color: #845988;
+    font-family: 'Magra', sans-serif;
+    font-size: 45px;
+    transform: translateY(-50%);
+    padding-left: 120%;
+
+  }
+
+  .paragraph1_frame1 {
+    position: relative;
+    color: #463F3A;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    top: 28%;
+    font-size: 50px;
+    width: 50%;
+    left: 260px;
+    
+  }
+  
+  .paragraph2_frame1 {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+
+  }
+  
+  .effect_frame1.effect-3 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+
+  }
+  
+  .effect_frame1.effect-3:before {
+    content: "\f0e0"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #322439;
+    transition: all 0.2s linear 0s;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect_frame1.effect-3:hover {
+    text-indent: -20px;
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect_frame1.effect-3:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+  }
+
+  .effect_frame1.effect-4 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+  }
+  
+  .effect_frame1.effect-4:before {
+    content: "\f03e"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #F4F3EE;
+    transition: all 0.2s linear 0s;
+    text-decoration: none;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect_frame1.effect-4:hover {
+    text-indent: -20px;
+    
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect_frame1.effect-4:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+    text-decoration: none;
+
+  }
+  
+  .frame1_button1and2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 35%;
+    left: 260px;
+   width: 35%;
+   text-decoration: none;
+
+  }
+  
+  .button1_frame1,
+  .button2_frame1 {
+    width: 140px;
+    height: 55px;
+    border-radius: 15px;
+    font-family: 'Magra', sans-serif;
+    font-size: 20px;
+    color: #F4F3EE;
+    text-align: center;
+    line-height: 55px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .button1_frame1 {
+    background-color: #845988;
+    color: #F0E1DD;
+  }
+  
+  .button2_frame1 {
+    width: calc(140px - 4px);
+    height: calc(55px - 4px);
+    border: 2px solid #845988;
+    color: #845988;
+  }
+  
+  .mesittindown {
+    position: absolute;
+    top: -25%;
+    width: 600px;
+    right: 65%;
+  }
+  
+  .Apps_buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 87%;
+  }
+  
+  :root {
+    --Github-color: #845988;
+    --Github-hover: #845988;
+  }
+  
+  .Github:hover,
+  .Github:focus,
+  .Insta:hover,
+  .Insta:focus,
+  .Linkedin:hover,
+  .Linkedin:focus,
+  .Facebook:hover,
+  .Facebook:focus {
+    box-shadow: 0.5em 0.5em 1em -0.2em var(--Github-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--Github-hover);
+    color: var(--Github-hover);
+  }
+  
+  .Facebook,
+  .Linkedin,
+  .Insta,
+  .Github {
+    width: 70px;
+    height: 60px;
+    border-radius: 15px;
+    font-family: 'Magra', sans-serif;
+    font-size: 20px;
+    color: #F4F3EE;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 20%;
+  }
+  
+  .Apps_buttons {
+    width: 40%;
+    left: -45%;
+    transform: translateX(-50%);
+   
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+  /* frame 1 introduction*/
+
+  .Frame1{
+    overflow-y: hidden;
+    height: 100%;
+  }
+  .background_block1 {
+    position: relative;
+    background-color: #E6DAE7;
+    width: 57%;
+    height: 600px;
+    top: 0px;
+    right: -43%;
+    
+  }
+  
+  .Hello_line {
+    position: relative;
+    width: 45px;
+    height: 6px;
+    background-color: #845988;
+    border-radius: 20px;
+    left: 150px;
+    top: 20%;
+  }
+  .mesittindown{
+    margin-top: 65px;
+    left: -300px;
+    max-width: 550px;
+    height: auto;
+  }
+  
+  .Hello {
+    position: relative;
+    color: #845988;
+    font-family: 'Magra', sans-serif;
+    font-size: 40px;
+    transform: translateY(-50%);
+    padding-left: 120%;
+
+  }
+
+  .paragraph1_frame1 {
+    position: relative;
+    color: #463F3A;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    transform: translateY(50%);
+    font-size: 45px;
+    width: 50%;
+    left: 205px;
+  }
+  
+  .paragraph2_frame1 {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+
+  }
+  
+  .effect_frame1.effect-3 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+
+  }
+  
+  .effect_frame1.effect-3:before {
+    content: "\f0e0"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #322439;
+    transition: all 0.2s linear 0s;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect_frame1.effect-3:hover {
+    text-indent: -20px;
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect_frame1.effect-3:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+  }
+
+  .effect_frame1.effect-4 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+  }
+  
+  .effect_frame1.effect-4:before {
+    content: "\f03e"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #F4F3EE;
+    transition: all 0.2s linear 0s;
+    text-decoration: none;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect_frame1.effect-4:hover {
+    text-indent: -20px;
+    
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect_frame1.effect-4:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+    text-decoration: none;
+
+  }
+  
+  .frame1_button1and2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 30%;
+    left: 200px;
+    width: 50%;
+     text-decoration: none;
+
+  }
+  
+  .button1_frame1,
+  .button2_frame1 {
+    width: 120px;
+    height: 55px;
+    border-radius: 15px;
+    font-family: 'Magra', sans-serif;
+    font-size: 20px;
+    color: #F4F3EE;
+    text-align: center;
+    line-height: 55px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .button1_frame1 {
+    background-color: #845988;
+    color: #F0E1DD;
+  }
+  
+  .button2_frame1 {
+    width: calc(120px - 4px);
+    height: calc(55px - 4px);
+    border: 2px solid #845988;
+    color: #845988;
+  }
+  
+  .mesittindown {
+    position: absolute;
+    top: -25%;
+    width: 600px;
+    right: 65%;
+  }
+  
+/*Buttons for opening applications*/
+.Apps_buttons {
+  display: flex;
+  justify-content: space-between; /* Distribute space between buttons */
+  align-items: flex-start; /* Align buttons vertically */
+  flex-direction: column; /* Stack buttons vertically */
+  position: relative;
+  top: -50%;
+  width: auto; /* Adjust the width for smaller screens */
+  transform: translateX(-50%); /* Center the buttons horizontally */
+}
+
+:root {
+  --Github-color: #845988;
+  --Github-hover: #845988;
+
+}
+.Github:hover,
+.Github:focus,
+.Insta:hover,
+.Insta:focus,
+.Linkedin:hover,
+.Linkedin:focus,
+.Facebook:hover,
+.Facebook:focus{
+  box-shadow: 0.5em 0.5em 1em -0.2em var(--Github-hover);
+  transform: translateY(-0.25em);
+  border-color: var(--Github-hover);
+  color: var(--Github-hover);
+
+}
+
+.Facebook,
+.Linkedin,
+.Insta,
+.Github {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  font-family: 'Magra', sans-serif;
+  font-size: 20px;
+  color: #F4F3EE;
+  text-align: center; /* Center text horizontally */
+  line-height: 55px; /* Center text vertically */
+  border-radius: 20%;
+  margin-top: 40%;
+}
+.Apps_buttons {
+  width: 50%; /* Adjust the width for smaller screens */
+  left: -30%; /* Position the buttons closer to the center */
+  transform: translateX(-50%); /* Center the buttons horizontally */
+}
+  
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) { /*phone size*/
+  /* frame 1 introduction*/
+
+  .Frame1{
+    overflow-y: hidden;
+    height: 110%;
+    width: 100%;
+    
+  }
+
+.mesittindown{
+  
+  position:absolute;
+  bottom: -3%;
+  width: 50vw;
+  left: -60%;
+
+}
+.background_block1 {
+  position: relative;
+  background-color: #E6DAE7;
+  width: 55%;
+  max-height: 80vw;
+  top: 0%;
+  right: -45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Hello_line {
+  width: 20px;
+  height: 3px;
+  background-color: #845988;
+  border-radius: 20px;
+  margin-bottom: 10px; /* Adjust spacing between Hello line and Hello text */
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.Hello {
+  color: #845988;
+  font-family: 'Magra', sans-serif;
+  font-size: 4vw;
+  padding-left: 30px;
+  transform: translateY(-50%);
+}
+
+.paragraph1_frame1 {
+  color: #463F3A;
+  font-family: 'Magra', sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+  width: 80%;
+  margin-top: 2vw; /* Adjust spacing between Hello text and paragraph */
+  margin-left: 20%;
+}
+
+.paragraph2_frame1 {
+  font-size: 2.5vw;
+  font-family: 'Magra', sans-serif;
+  color: #463F3A;
+  margin-top: 10px; /* Adjust spacing between paragraphs */
+}
+.effect_frame1.effect-3 {
+  transition: all 0.2s linear 0s;
+  position: relative; /* Add this line */
+
+}
+
+.effect_frame1.effect-3:before {
+  content: "\f0e0"; /* Unicode for the envelope icon */
+  font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+  font-size: 15px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  height: 100%;
+  width: 40px;
+  background-color: #322439;
+  transition: all 0.2s linear 0s;
+}
+
+
+/* Define the hover effect */
+.effect_frame1.effect-3:hover {
+  text-indent: -20px;
+}
+
+/* Define the hover effect for the icon */
+.effect_frame1.effect-3:hover:before {
+  opacity: 1;
+  text-indent: 0px;
+  border-radius: 15px;
+}
+
+.effect_frame1.effect-4 {
+  transition: all 0.2s linear 0s;
+  position: relative; /* Add this line */
+}
+
+.effect_frame1.effect-4:before {
+  content: "\f03e"; /* Unicode for the envelope icon */
+  font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+  font-size: 15px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  height: 100%;
+  width: 40px;
+  background-color: #F4F3EE;
+  transition: all 0.2s linear 0s;
+  text-decoration: none;
+}
+
+
+/* Define the hover effect */
+.effect_frame1.effect-4:hover {
+  text-indent: -20px;
+  
+}
+
+/* Define the hover effect for the icon */
+.effect_frame1.effect-4:hover:before {
+  opacity: 1;
+  text-indent: 0px;
+  border-radius: 15px;
+  text-decoration: none;
+
+}
+
+
+.frame1_button1and2 {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  position: relative;
+  margin-bottom: 0%;
+  right: -20%;
+  padding-bottom: 10%;
+}
+
+.button1_frame1,
+.button2_frame1 {
+  width: 100px;
+  height: 35px;
+  border-radius: 12px;
+  font-family: 'Magra', sans-serif;
+  font-size: 2.8vw;
+  color: #F4F3EE;
+  text-align: center;
+  line-height: 35px;
+  color: inherit;
+  text-decoration: none;
+
+
+}
+
+.button1_frame1 {
+  background-color: #845988;
+  color: #F0E1DD;
+}
+
+.button2_frame1 {
+  width: calc(100px - 4px);
+  height: calc(39px - 4px);
+  border: 2px solid #845988;
+  color: #845988;
+}
+/*Buttons for opening applications*/
+.Apps_buttons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 0;
+  width: 100%; /* Ensure the width is set correctly */
+
+}
+
+:root {
+  --Github-color: #845988;
+  --Github-hover: #845988;
+
+}
+.Github:hover,
+.Github:focus,
+.Insta:hover,
+.Insta:focus,
+.Linkedin:hover,
+.Linkedin:focus,
+.Facebook:hover,
+.Facebook:focus{
+  box-shadow: 0.5em 0.5em 1em -0.2em var(--Github-hover);
+  transform: translateY(-0.25em);
+  border-color: var(--Github-hover);
+  color: var(--Github-hover);
+
+}
+
+.Facebook,
+.Linkedin,
+.Insta,
+.Github {
+  width: 12vw; /* Set a fixed width for buttons */
+  height: 12vw; /* Set a fixed height for buttons */
+  margin: 0 15px; /* Add margin to create space between buttons */
+  border-radius: 2vw;
+  font-family: 'Magra', sans-serif;
+  font-size: 20px;
+  color: #F4F3EE;
+  text-align: center;
+  line-height: 50px; /* Center text vertically */
+}
+.Apps_buttons {
+  width: auto; /* Adjust the width for smaller screens */
+  transform: translateX(-50%); /* Center the buttons horizontally */
+  position: relative;
+  top: 20vw;
+  margin-bottom: -20px;
+}
+
+}

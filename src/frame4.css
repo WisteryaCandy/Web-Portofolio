@@ -1,0 +1,789 @@
+
+
+@media screen and (min-width: 991px){
+
+    .Frame4{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .Title1_frame4{
+        position: relative;
+        font-size: 300%;
+        font-family: 'Magra', sans-serif;
+        font-weight: bold;
+        color:#463F3A ;
+        top: 3%;
+        left: 10.4%;
+    }
+    
+    .navbar_frame4{
+        position: relative;
+        width: 60%;
+        height: 5%;
+        left: 15%;
+        top: 4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Magra', sans-serif;
+        font-size: 1.7vw;
+        color: #463F3A;
+        --hover: #845988;
+    
+    }
+    .navbar_frame4 p.active {
+        background-color: #845988;
+        border-radius: 25px;
+        color: #F4F3EE;
+        padding: 7px 22px; /* Increase padding to make it larger */
+    }
+    .navbar_frame4 p {
+        position: relative;
+        transition: box-shadow 0.3s ease-in-out;
+        border-radius: 25px;
+        padding: 7px 22px; /* Increase padding to make it larger */
+      }
+      
+      /* Define the hover effect for the slide */
+      .navbar_frame4 p:hover,
+      .navbar_frame4 p:focus {
+        color:#F4F3EE ;
+         box-shadow: inset 10em 0 0 0 var(--hover);
+        border-radius: 25px;
+        padding: 7px 22px; /* Increase padding to make it larger */
+      }
+    
+    .All{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 20%;
+    }
+    
+    .Square1_all{
+        position: relative;
+        width: 60%;
+        height: 50%;
+    }
+    .Square2_all{
+        position: relative;
+        width: 39%;
+        height: 50%;
+        left: 1%;
+    }
+    .Square3_all,
+    .Square4_all{
+        position: relative;
+        width: 29.2%;
+        height: 48%;
+    }
+    .Square3_all{
+        top: 1%;
+    }
+    .Square4_all{
+        left: 1.5%;
+        top: 1%;
+
+    }
+    .Square5_all{
+        position: relative;
+        width: 39%;
+        height: 48%;
+        left: 2.5%;
+        top: 1%;
+    }
+
+    .Square6_all,
+    .Square7_all,
+    .Square8_all,
+    .Square9_all,
+    .Square10_all,
+    .Square11_all,
+    .Square12_all,
+    .Square13_all{
+        display: none;
+    }
+    
+    .Gamedevelopment{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 20%;
+       
+    }
+    
+    .Square1_gamedevelopment{
+        position: relative;
+        width: 60%;
+        height: 50%;
+
+    }
+    .Square2_gamedevelopment{
+        position: relative;
+        top: 50%;
+        right: 29.5%;
+    }
+    .Square2_gamedevelopment,
+    .Square3_gamedevelopment{
+        position: relative;
+        width: 29.5%;
+        height: 48%;
+    }
+    .Square3_gamedevelopment{
+      position: relative;
+      top: 1%;
+    }
+    .Description_gamedevelopment{
+        position: relative;
+        border: 5px solid #E6DAE7;
+        border-radius: 20px;
+        width: 39%;
+        height: 100%;
+        top: -98%;
+        left: 61%;
+        box-sizing: border-box; 
+        padding: 20px;
+        font-family: 'Magra', sans-serif;
+        font-size: 15px;
+        
+    }
+    
+    
+    .Webdevelopment{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 19.5%;
+       
+    }
+    .Square1_webdevelopment{
+        position: relative;
+        width: 60%;
+        height: 50%; 
+    }
+    
+    .Square2_webdevelopment{
+        position: relative;
+        top: 50%;
+        right: 29.5%;
+    }
+    .Square2_webdevelopment,
+    .Square3_webdevelopment{
+        position: relative;
+        width: 29.5%;
+        height: 48%;
+    }
+    .Square3_webdevelopment{
+      position: relative;
+      top: 1%;
+    }
+    .Description_webdevelopment{
+        position: relative;
+        border: 5px solid #E6DAE7;
+        border-radius: 20px;
+        width: 39%;
+        height: 98%;
+        box-sizing: border-box; 
+        padding: 20px;
+        font-family: 'Magra', sans-serif;
+        font-size: 15px;
+        overflow-y: auto;
+        top: -97%;
+        left: 61%;
+        
+    }
+     .Square4_webdevelopment,
+     .Square5_webdevelopment,
+     .Square6_webdevelopment,
+     .Square7_webdevelopment,
+     .Square8_webdevelopment{
+        display: none;
+     }
+
+    .Cprojects{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 20%;
+       
+    }
+    .Square1_cprojects{
+        position: relative;
+        width: 60%;
+        height: 50%; 
+
+    }
+    
+    .Square2_cprojects{
+        position: relative;
+        top: 50%;
+        right: 29.5%;
+    }
+    .Square2_cprojects,
+    .Square3_cprojects{
+        position: relative;
+        width: 29.5%;
+        height: 48%;
+    }
+    .Square3_cprojects{
+      position: relative;
+      top: 1%;
+    }
+    .Description_cprojects{
+        position: relative;
+        border: 5px solid #E6DAE7;
+        border-radius: 20px;
+        width: 39%;
+        height: 100%;
+        box-sizing: border-box; 
+        padding: 20px;
+        font-family: 'Magra', sans-serif;
+        font-size: 15px;
+        overflow-y: auto;
+        top: -98%;
+        left: 61%;
+        
+    }
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .Frame4{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .Title1_frame4{
+        position: relative;
+        font-size: 50px;
+        font-family: 'Magra', sans-serif;
+        font-weight: bold;
+        color:#463F3A ;
+        top: 3%;
+        left: 10.4%;
+        width: 20%;
+    }
+    
+    .navbar_frame4{
+        position: relative;
+        width: 60%;
+        height: 5%;
+        left: 15%;
+        top: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Magra', sans-serif;
+        font-size: 3vw;
+        color: #463F3A;
+        --hover: #845988;
+    
+    }
+    .navbar_frame4 p.active {
+        background-color: #845988;
+        border-radius: 25px;
+        color: #F4F3EE;
+        padding: 7px 22px; /* Increase padding to make it larger */
+    }
+    .navbar_frame4 p {
+        position: relative;
+        transition: box-shadow 0.3s ease-in-out;
+        border-radius: 25px;
+        padding: 7px 22px; /* Increase padding to make it larger */
+      }
+      
+      /* Define the hover effect for the slide */
+      .navbar_frame4 p:hover,
+      .navbar_frame4 p:focus {
+        color:#F4F3EE ;
+         box-shadow: inset 10em 0 0 0 var(--hover);
+        border-radius: 25px;
+        padding: 7px 22px; /* Increase padding to make it larger */
+      }
+    
+      .All{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 30%;
+    }
+    
+    .Square1_all{
+        position: relative;
+        width: 60%;
+        height: 50%;
+    }
+    .Square2_all{
+        position: relative;
+        width: 39%;
+        height: 50%;
+        left: 1%;
+    }
+    .Square3_all,
+    .Square4_all{
+        position: relative;
+        width: 29.2%;
+        height: 48%;
+    }
+    .Square3_all{
+        top: 1%;
+    }
+    .Square4_all{
+        left: 1.5%;
+        top: 1%;
+
+    }
+    .Square5_all{
+        position: relative;
+        width: 39%;
+        height: 48%;
+        left: 2.5%;
+        top: 1%;
+    }
+
+    .Square6_all,
+    .Square7_all,
+    .Square8_all,
+    .Square9_all,
+    .Square10_all,
+    .Square11_all,
+    .Square12_all,
+    .Square13_all{
+        display: none;
+    }
+    
+    .Gamedevelopment{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 30%;
+       
+    }
+    
+    .Square1_gamedevelopment{
+        position: relative;
+        width: 60%;
+        height: 50%;
+
+    }
+    .Square2_gamedevelopment{
+        position: relative;
+        top: 50%;
+        right: 29.5%;
+    }
+    .Square2_gamedevelopment,
+    .Square3_gamedevelopment{
+        position: relative;
+        width: 29.5%;
+        height: 48%;
+    }
+    .Square3_gamedevelopment{
+      position: relative;
+      top: 1%;
+    }
+    .Description_gamedevelopment{
+        position: relative;
+        border: 5px solid #E6DAE7;
+        border-radius: 20px;
+        width: 39%;
+        height: 100%;
+        top: -98%;
+        left: 61%;
+        box-sizing: border-box; 
+        padding: 20px;
+        font-family: 'Magra', sans-serif;
+        font-size: 15px;
+        overflow-y: auto;
+    }
+    
+    
+    .Webdevelopment{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 29.5%;
+       
+    }
+    .Square1_webdevelopment{
+        position: relative;
+        width: 60%;
+        height: 50%; 
+    }
+    
+    .Square2_webdevelopment{
+        position: relative;
+        top: 50%;
+        right: 29.5%;
+    }
+    .Square2_webdevelopment,
+    .Square3_webdevelopment{
+        position: relative;
+        width: 29.5%;
+        height: 48%;
+    }
+    .Square3_webdevelopment{
+      position: relative;
+      top: 1%;
+    }
+    .Description_webdevelopment{
+        position: relative;
+        border: 5px solid #E6DAE7;
+        border-radius: 20px;
+        width: 39%;
+        height: 98%;
+        box-sizing: border-box; 
+        padding: 20px;
+        font-family: 'Magra', sans-serif;
+        font-size: 15px;
+        overflow-y: auto;
+        top: -97%;
+        left: 61%;
+        
+    }
+     .Square4_webdevelopment,
+     .Square5_webdevelopment,
+     .Square6_webdevelopment,
+     .Square7_webdevelopment,
+     .Square8_webdevelopment{
+        display: none;
+     }
+
+    .Cprojects{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 30%;
+       
+    }
+    .Square1_cprojects{
+        position: relative;
+        width: 60%;
+        height: 50%; 
+
+    }
+    
+    .Square2_cprojects{
+        position: relative;
+        top: 50%;
+        right: 29.5%;
+    }
+    .Square2_cprojects,
+    .Square3_cprojects{
+        position: relative;
+        width: 29.5%;
+        height: 48%;
+    }
+    .Square3_cprojects{
+      position: relative;
+      top: 1%;
+    }
+    .Description_cprojects{
+        position: relative;
+        border: 5px solid #E6DAE7;
+        border-radius: 20px;
+        width: 39%;
+        height: 100%;
+        box-sizing: border-box; 
+        padding: 20px;
+        font-family: 'Magra', sans-serif;
+        font-size: 15px;
+        overflow-y: auto;
+        top: -98%;
+        left: 61%;
+        
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+    .Frame4{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .Title1_frame4{
+        position: relative;
+        font-size: 7vw;
+        font-family: 'Magra', sans-serif;
+        font-weight: bold;
+        color:#463F3A ;
+        top: 3%;
+        left: 10.4%;
+        width: 20%;
+    }
+    
+    .navbar_frame4{
+        position: relative;
+        width: 60%;
+        height: 5%;
+        left: 15%;
+        top: 7%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Magra', sans-serif;
+        font-size: 2.5vw;
+        color: #463F3A;
+        --hover: #845988;
+    
+    }
+    .navbar_frame4 p.active {
+        background-color: #845988;
+        border-radius: 4.5vw;
+        color: #F4F3EE;
+        padding: 1.5vw 4vw; /* Increase padding to make it larger */
+    }
+    .navbar_frame4 p {
+        position: relative;
+        transition: box-shadow 0.3s ease-in-out;
+        border-radius: 4.5vw;
+        padding: 1.5vw 4vw; /* Increase padding to make it larger */
+      }
+      
+      /* Define the hover effect for the slide */
+      .navbar_frame4 p:hover,
+      .navbar_frame4 p:focus {
+        color:#F4F3EE ;
+         box-shadow: inset 10em 0 0 0 var(--hover);
+        border-radius: 4.5vw;
+        padding: 1.5vw 4vw; /* Increase padding to make it larger */
+      }
+    
+      .All{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 30%;
+    }
+    
+    .Square1_all{
+        position: relative;
+        width: 60%;
+        height: 50%;
+    }
+    .Square2_all{
+        position: relative;
+        width: 39%;
+        height: 50%;
+        left: 1%;
+    }
+    .Square3_all,
+    .Square4_all{
+        position: relative;
+        width: 29.2%;
+        height: 48%;
+    }
+    .Square3_all{
+        top: 1%;
+    }
+    .Square4_all{
+        left: 1.5%;
+        top: 1%;
+
+    }
+    .Square5_all{
+        position: relative;
+        width: 39%;
+        height: 48%;
+        left: 2.5%;
+        top: 1%;
+    }
+
+    .Square6_all,
+    .Square7_all,
+    .Square8_all,
+    .Square9_all,
+    .Square10_all,
+    .Square11_all,
+    .Square12_all,
+    .Square13_all{
+        display: none;
+    }
+    
+    .Gamedevelopment{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 30%;
+       
+    }
+    
+    .Square1_gamedevelopment{
+        position: relative;
+        width: 60%;
+        height: 50%;
+
+    }
+    .Square2_gamedevelopment{
+        position: relative;
+        top: 50%;
+        right: 29.5%;
+    }
+    .Square2_gamedevelopment,
+    .Square3_gamedevelopment{
+        position: relative;
+        width: 29.5%;
+        height: 48%;
+    }
+    .Square3_gamedevelopment{
+      position: relative;
+      top: 1%;
+    }
+    .Title_gamedev1{
+        font-size: 3.5vw;
+    }
+    .Title_gamedev2{
+        font-size: 3vw;
+    }
+    .Description_gamedevelopment{
+        position: relative;
+        border: 5px solid #E6DAE7;
+        border-radius: 20px;
+        width: 39%;
+        height: 100%;
+        top: -98%;
+        left: 61%;
+        box-sizing: border-box; 
+        padding: 20px;
+        font-family: 'Magra', sans-serif;
+        font-size: 2.3vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
+    
+    .Webdevelopment{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 29.5%;
+       
+    }
+    .Square1_webdevelopment{
+        position: relative;
+        width: 60%;
+        height: 50%; 
+    }
+    
+    .Square2_webdevelopment{
+        position: relative;
+        top: 50%;
+        right: 29.5%;
+    }
+    .Square2_webdevelopment,
+    .Square3_webdevelopment{
+        position: relative;
+        width: 29.5%;
+        height: 48%;
+    }
+    .Square3_webdevelopment{
+      position: relative;
+      top: 1%;
+    }
+    .Title_webdev1{
+        font-size: 3.5vw;
+    }
+    .Title_webdev2{
+        font-size: 3vw;
+    }
+    .Description_webdevelopment{
+        position: relative;
+        border: 5px solid #E6DAE7;
+        border-radius: 20px;
+        width: 39%;
+        height: 98%;
+        box-sizing: border-box; 
+        padding: 20px;
+        font-family: 'Magra', sans-serif;
+        font-size: 2.3vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        top: -97%;
+        left: 61%;
+        
+    }
+     .Square4_webdevelopment,
+     .Square5_webdevelopment,
+     .Square6_webdevelopment,
+     .Square7_webdevelopment,
+     .Square8_webdevelopment{
+        display: none;
+     }
+
+    .Cprojects{
+        position: absolute;
+        width: 75%;
+        height: 65%;
+        left: 14%;
+        top: 30%;
+       
+    }
+    .Square1_cprojects{
+        position: relative;
+        width: 60%;
+        height: 50%; 
+
+    }
+    
+    .Square2_cprojects{
+        position: relative;
+        top: 50%;
+        right: 29.5%;
+    }
+    .Square2_cprojects,
+    .Square3_cprojects{
+        position: relative;
+        width: 29.5%;
+        height: 48%;
+    }
+    .Square3_cprojects{
+      position: relative;
+      top: 1%;
+    }
+    .Title_cprojects1{
+        font-size: 3.5vw;
+    }
+    .Title_cprojects2{
+        font-size: 3vw;
+    }
+    .Description_cprojects{
+        position: relative;
+        border: 5px solid #E6DAE7;
+        border-radius: 20px;
+        width: 39%;
+        height: 100%;
+        box-sizing: border-box; 
+        padding: 20px;
+        font-family: 'Magra', sans-serif;
+        font-size: 2.3vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        top: -98%;
+        left: 61%;
+        
+    }
+
+}

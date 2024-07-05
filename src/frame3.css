@@ -1,0 +1,521 @@
+
+
+@media screen and (min-width: 991px){
+
+    .Frame3{
+        width: 100%;
+        height: 100%;
+    }
+
+.Imagine_movbg {
+    position: relative; /* Change position to fixed */
+    left: 0%;
+    width: 100%; /* Adjust width as needed */
+    height: 100%;
+    background: url("/public/assets/815EaMGGxQL.png");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.Title1{
+   font-family: 'Magra', sans-serif;
+   position: relative;
+   background-color: #F0E1DD;
+   width: 200px;
+   height: 75px;
+   border-radius: 12px;
+   border: 4px solid #F4F3EE;
+   text-align: center;
+   line-height: 75px; 
+   font-size: 30px;
+   -webkit-text-stroke: 1.3px #463F3A;
+   color: #F4F3EE;
+   text-shadow: 3px 2px 3px #463F3A;
+   transform: translateX(-50%); 
+
+   top:5%;
+   left: 50%;
+
+}
+
+.Title2 {
+
+        font-family: 'Magra', sans-serif;
+        position: relative;
+        color: #463F3A;
+        font-size: 60px;
+        font-weight: bold;
+        top: 9%;
+        left: 52%;
+        -webkit-text-stroke: 1px #F4F3EE;
+        width: 900px;
+        transform: translateX(-52%); 
+        text-align: center;
+    
+ }
+.paragraph1_frame3 {
+    width: 900px;
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    color: #000000;
+    font-size: 20px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset by -50% of its own width */
+    text-align: center;
+    top: 9%;
+}
+
+.Border{
+position: relative;
+top: 15%;
+display: flex;
+flex-direction: row;
+}
+:root {
+    --Border1-color: #F4F3EE;
+    --Border1-hover: #5A3F5C;
+    --Border2-color: #F4F3EE;
+    --Border2-hover: #5A3F5C;
+    --Border3-color: #F4F3EE;
+    --Border3-hover: #5A3F5C;
+}
+
+.Border1,
+.Border2,
+.Border3{
+
+    width: 25vw;
+    height: 20vw;
+}
+
+
+.Border1{
+    position: relative;
+    color: var(--Border1-color);
+    border-radius: 20px;
+    left: 5%;
+    border: 5px solid var(--Border1-color);
+    color: var(--Border1-color);
+    transition: 0.25s;
+}
+
+.Border1:hover,
+.Border1:focus,
+.Border2:hover,
+.Border2:focus,
+.Border3:hover,
+.Border3:focus{
+    box-shadow: 0 1em 1em -0.2em var(--Border1-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--Border1-hover);
+    color: var(--Border1-hover);
+
+}
+.Border2{
+    position: relative;
+    color: var(--Border2-color);
+    border-radius: 20px;
+    left: 12%;
+    border: 5px solid var(--Border2-color);
+    color: var(--Border2-color);
+    transition: 0.25s;
+}
+
+
+.Border3{
+    position: relative;
+    color: var(--Border3-color);
+    border-radius: 20px;
+    left: 17%;
+    border: 5px solid var(--Border3-color);
+    color: var(--Border3-color);
+    transition: 0.25s;
+}
+.Title3,
+.Title4,
+.Title5 {
+    position: relative; /* Change position to fixed */
+    font-family: 'Magra', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #463F3A;
+    top: -30px; /* Adjust vertical position as needed */
+    transform: translateX(-65%); /* Offset by -50% of its own width */
+    width: 65%;
+    left: 75%;
+}
+.border1_circle,
+.border2_circle,
+.border3_circle{
+    position: relative;
+    width: 20%;
+    border-radius: 100%;
+    top: 12%;
+    left: 7%;
+}
+.paragraph2_frame3,
+.paragraph3_frame3,
+.paragraph4_frame3{
+    position: relative; 
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+    margin-top: -40px;
+    width: 50%;
+    font-size: 1.2vw;
+    left: 33%;
+
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+
+
+
+    .Frame3{
+        width: 100%;
+        height: 100%;
+    }
+
+.Imagine_movbg {
+    position: relative; /* Change position to fixed */
+    left: 0%;
+    width: 100%; /* Adjust width as needed */
+    height: 100%;
+    background: url("/public/assets/815EaMGGxQL.png");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.Title1{
+   font-family: 'Magra', sans-serif;
+   position: relative;
+   background-color: #F0E1DD;
+   width: 200px;
+   height: 75px;
+   border-radius: 12px;
+   border: 4px solid #F4F3EE;
+   text-align: center;
+   line-height: 75px; 
+   font-size: 30px;
+   -webkit-text-stroke: 1.3px #463F3A;
+   color: #F4F3EE;
+   text-shadow: 3px 2px 3px #463F3A;
+   transform: translateX(-50%); 
+
+   top:5%;
+   left: 50%;
+
+}
+
+.Title2 {
+
+        font-family: 'Magra', sans-serif;
+        position: relative;
+        color: #463F3A;
+        font-size: 60px;
+        font-weight: bold;
+        top: 9%;
+        left: 52%;
+        -webkit-text-stroke: 1px #F4F3EE;
+        width: 900px;
+        transform: translateX(-52%); 
+        text-align: center;
+    
+ }
+.paragraph1_frame3 {
+    width: 900px;
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    color: #000000;
+    font-size: 20px;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset by -50% of its own width */
+    text-align: center;
+    top: 9%;
+}
+
+.Border{
+position: relative;
+top: 15%;
+display: flex;
+flex-direction: row;
+width: 80%;
+transform: translateX(2%);
+}
+:root {
+    --Border1-color: #F4F3EE;
+    --Border1-hover: #5A3F5C;
+    --Border2-color: #F4F3EE;
+    --Border2-hover: #5A3F5C;
+    --Border3-color: #F4F3EE;
+    --Border3-hover: #5A3F5C;
+}
+
+.Border1,
+.Border2,
+.Border3{
+
+    width: 30vw;
+    height: 25vw;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox: hide scrollbar */
+    -ms-overflow-style: none; /* IE 10+ */
+}
+
+
+.Border1{
+    position: relative;
+    color: var(--Border1-color);
+    border-radius: 20px;
+    left: 5%;
+    border: 5px solid var(--Border1-color);
+    color: var(--Border1-color);
+    transition: 0.25s;
+}
+
+.Border1:hover,
+.Border1:focus,
+.Border2:hover,
+.Border2:focus,
+.Border3:hover,
+.Border3:focus{
+    box-shadow: 0 1em 1em -0.2em var(--Border1-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--Border1-hover);
+    color: var(--Border1-hover);
+
+}
+.Border2{
+    position: relative;
+    color: var(--Border2-color);
+    border-radius: 20px;
+    left: 11%;
+    border: 5px solid var(--Border2-color);
+    color: var(--Border2-color);
+    transition: 0.25s;
+}
+
+
+.Border3{
+    position: relative;
+    color: var(--Border3-color);
+    border-radius: 20px;
+    left: 17%;
+    border: 5px solid var(--Border3-color);
+    color: var(--Border3-color);
+    transition: 0.25s;
+}
+.Title3,
+.Title4,
+.Title5 {
+    position: relative; /* Change position to fixed */
+    font-family: 'Magra', sans-serif;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: #463F3A;
+    top: -20px; /* Adjust vertical position as needed */
+    transform: translateX(-65%); /* Offset by -50% of its own width */
+    width: 65%;
+    left: 75%;
+}
+.border1_circle,
+.border2_circle,
+.border3_circle{
+    position: relative;
+    width: 20%;
+    border-radius: 100%;
+    top: 12%;
+    left: 7%;
+}
+.paragraph2_frame3,
+.paragraph3_frame3,
+.paragraph4_frame3{
+    position: relative; 
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+    margin-top: -30px;
+    width: 50%;
+    font-size: 1.5vw;
+    left: 33%;
+
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+
+    .Frame3{
+        height: 100%;
+    }
+
+.Imagine_movbg {
+    position: relative; /* Change position to fixed */
+    left: 0%;
+    width: 100%; /* Adjust width as needed */
+    height: 100%;
+    background: url("/public/assets/815EaMGGxQL.png");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.Title1{
+   font-family: 'Magra', sans-serif;
+   position: relative;
+   background-color: #F0E1DD;
+   width: 35%;
+   height: 13vw;
+   border-radius: 12px;
+   border: 4px solid #F4F3EE;
+   text-align: center;
+   line-height: 12vw; 
+   font-size: 5vw;
+   -webkit-text-stroke: 0.7px #463F3A;
+   color: #F4F3EE;
+   text-shadow: 3px 2px 3px #463F3A;
+   transform: translateX(90%); 
+   top:5%;
+
+}
+
+.Title2 {
+
+        font-family: 'Magra', sans-serif;
+        position: relative;
+        color: #463F3A;
+        font-size: 7vw;
+        font-weight: bold;
+        top: 9%;
+        left: 52%;
+        -webkit-text-stroke: 1px #F4F3EE;
+        width: auto;
+        transform: translateX(-52%); 
+        text-align: center;
+    
+ }
+.paragraph1_frame3 {
+    width: 90%;
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    color: #000000;
+    font-size: 3vw;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset by -50% of its own width */
+    text-align: center;
+    top: 9%;
+}
+
+.Border{
+position: relative;
+top: 15%;
+display: flex;
+flex-direction: column;
+width: 50%;
+transform: translateX(30%);
+grid-gap:5vw;
+}
+:root {
+    --Border1-color: #F4F3EE;
+    --Border1-hover: #5A3F5C;
+    --Border2-color: #F4F3EE;
+    --Border2-hover: #5A3F5C;
+    --Border3-color: #F4F3EE;
+    --Border3-hover: #5A3F5C;
+}
+
+.Border1,
+.Border2,
+.Border3{
+
+    width: 70vw;
+    height: 25vw;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox: hide scrollbar */
+    -ms-overflow-style: none; /* IE 10+ */
+    border-radius: 20px;
+}
+
+
+.Border1{
+    position: relative;
+    color: var(--Border1-color);
+    border: 3px solid var(--Border1-color);
+    color: var(--Border1-color);
+    transition: 0.25s;
+}
+
+.Border1:hover,
+.Border1:focus,
+.Border2:hover,
+.Border2:focus,
+.Border3:hover,
+.Border3:focus{
+    box-shadow: 0 1em 1em -0.2em var(--Border1-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--Border1-hover);
+    color: var(--Border1-hover);
+
+}
+.Border2{
+    position: relative;
+    color: var(--Border2-color);
+    border: 3px solid var(--Border2-color);
+    color: var(--Border2-color);
+    transition: 0.25s;
+}
+
+
+.Border3{
+    position: relative;
+    color: var(--Border3-color);
+    border: 3px solid var(--Border3-color);
+    color: var(--Border3-color);
+    transition: 0.25s;
+}
+.Title3,
+.Title4,
+.Title5 {
+    position: relative; /* Change position to fixed */
+    font-family: 'Magra', sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    color: #463F3A;
+    top: -10vw; /* Adjust vertical position as needed */
+    transform: translateX(-65%); /* Offset by -50% of its own width */
+    width: 65%;
+    left: 75%;
+}
+.border1_circle,
+.border2_circle,
+.border3_circle{
+    position: relative;
+    width: 20%;
+    border-radius: 100%;
+    top: 12%;
+    left: 7%;
+}
+.paragraph2_frame3,
+.paragraph3_frame3,
+.paragraph4_frame3{
+    position: relative; 
+    font-family: 'Magra', sans-serif;
+    color: #463F3A;
+    margin-top: -14vw;
+    width: 50%;
+    font-size: 3vw;
+    left: 33%;
+
+}
+
+}

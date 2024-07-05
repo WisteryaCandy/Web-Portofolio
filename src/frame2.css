@@ -1,0 +1,743 @@
+/* styles.module.css */
+@media screen and (min-width: 991px){
+
+  .Frame2{
+    height: 100%;
+ 
+  }
+  .About_Me {
+    position: relative;
+    font-size: 300%;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color: #463F3A;
+    left: 10.4%;
+    top: 10%;
+  }
+  .mobile_icons{
+    display: none;
+  }
+  
+  .Purple_Square1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6DAE7;
+    width: 22vw;
+    height: 17vw;
+    border-radius: 3%;
+    margin-left: 10%;
+    top: 17vw;
+  }
+  
+  .Purple_Square2 {
+    position: relative;
+    background-color: #E6DAE7;
+    width: 90%;
+    height: 90%;
+    transform: translateY(-45%);
+    border-radius: 4%;
+    border: 7px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100%;
+  }
+  
+  .My_photo2 {
+    width: 11vw;
+  }
+  
+  .myname2 {
+    position: relative;
+    transform: translateY(50%);
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color: #463F3A;
+    font-size: 1.5vw;
+    left: -13%;
+    width: 50%;
+  }
+  
+  .myname2_underparagraph {
+    position: relative;
+    font-family: 'Magra', sans-serif;
+    width: 90%;
+    font-size:1vw;
+    top: 13%;
+    left: 0%;
+  }
+  
+  .scrollable-container {
+    position: relative;
+    width: 47%;
+    height: 19vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    left: 50%;
+    margin-top: 4vw;
+
+  }
+  
+  .scrollable-paragraph {
+    width: 90%;
+    font-family: 'Magra', sans-serif;
+    color: #000000;
+    font-size: 110%;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .highlighted {
+    background-color: #E6DAE7;
+    border-radius: 10px;
+
+  }
+  
+  .highlightButton {
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    left: 50%;
+    width: 18%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #845988;
+    color: #F4F3EE;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    opacity: 1;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+     margin-top: -10%;
+  }
+  
+  .highlightButton:hover::before {
+    opacity: 0;
+    transform: translateY(50%) rotateX(90deg);
+  }
+  
+  .highlightButton:hover::after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+  
+  .highlightButton::after,
+  .highlightButton::before {
+    top: 0;
+    left: 0;
+    display: block;
+    text-transform: uppercase;
+    background: transparent;
+    line-height: 40px;
+    position: absolute;
+    content: attr(data-back);
+    transform: translateY(-50%) rotateX(90deg);
+    transition: all 0.5s ease;
+  }
+  
+  .highlightButton::after {
+    border: 3px solid #845988;
+    background: #F4F3EE;
+    color: #845988;
+    border-radius: 20px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+  }
+  
+  .highlightButton.flipped::before {
+    opacity: 0;
+  }
+  
+  .highlightButton.flipped::after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+  
+  .paragraph8_frame1 {
+    color: #8A817C;
+    font-family: 'Magra', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+  }
+  .paragraph9_frame1 {
+    display: none;
+
+  }
+  
+  .carousel {
+    display: none;
+  }
+  
+  .Volunteering_icons {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 50px;
+    transform: translateX(15vw); /* Center the buttons horizontally */
+  }
+  
+  .button_scouts,
+  .button_acces,
+  .button_shakespeare {
+    width: 10vw; /* Adjust as needed for responsive size */
+    height: 10vw; /* Adjust as needed for responsive size */
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 5vw;
+  }
+  
+  .button_scouts {
+    background: url("/public/assets/scouts.png");
+    background-size: cover;
+  }
+  
+  .button_acces {
+    background: url("/public/assets/275987697_1228260911268067_823808366275849239_n.jpg");
+    background-size: cover;  
+  }
+  
+  
+  .button_shakespeare {
+    background: url("/public/assets/shakespar.png");
+    background-size: cover;
+  }
+  
+  .moreinfo_Scouts,
+  .moreinfo_Acces_Oltenia,
+  .moreinfo_Shakespeare {
+    position:absolute;
+    background-color: #F0E1DD;
+    width: 23vw;
+    height: 28vw;
+    border-radius: 10px;
+    font-family: 'Magra', sans-serif;
+    font-size: 0.9vw;
+    padding: 20px; /* Add padding for better readability */
+    box-sizing: border-box;
+    z-index: 1000; /* Ensure tooltips are above other content */
+    overflow-y: auto;
+  }
+  
+  .moreinfo_Scouts{
+    left: 0%;
+  }
+  .moreinfo_Acces_Oltenia{
+    left: 30%;
+  }
+  .moreinfo_Shakespeare {
+    left:60%;
+  }
+  /* Show tooltips when their respective class is added */
+  .visible1,
+  .visible2,
+  .visible3 {
+    display: block;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* styles.module.css */
+@media screen and (min-width: 768px) and (max-width: 990px){
+  .Frame2{
+    height: 100%;
+    top: 0%;
+  }
+  .About_Me {
+    position: relative;
+    font-size: 300%;
+    width: 30%;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color: #463F3A;
+    top: 4%;
+    left: 10.4%;
+  }
+  .mobile_icons{
+    display: none;
+  }
+  .Purple_Square1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6DAE7;
+    width: 25vw;
+    height: 18vw;
+    border-radius: 3%;
+    margin-left: 7%;
+    top: 100px;
+  }
+  
+  .Purple_Square2 {
+    position: relative;
+    background-color: #E6DAE7;
+    width: 90%;
+    height: 100%;
+    transform: translateY(-60%);
+    border-radius: 4%;
+    border: 5px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120%;
+  }
+  
+  .My_photo2 {
+    width: 12vw;
+  }
+  
+  .myname2 {
+    position: relative;
+    transform: translateY(25%);
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    color: #463F3A;
+    font-size: 2vw;
+    left: -13%;
+    width: 50%;
+  }
+  
+  .myname2_underparagraph {
+    position: relative;
+    font-family: 'Magra', sans-serif;
+    width: 90%;
+    font-size:1.3vw;
+    top: 12%;
+    left: 0%;
+  }
+  
+  .scrollable-container {
+    position: relative;
+    width: 47%;
+    height: 19vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    left: 60%;
+    margin-top: 3vw;
+  }
+  
+  .scrollable-paragraph {
+    width: 90%;
+    font-family: 'Magra', sans-serif;
+    color: #000000;
+    font-size: 95%;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .highlighted {
+    background-color: #E6DAE7;
+    border-radius: 10px;
+
+  }
+  
+  .highlightButton {
+    font-family: 'Magra', sans-serif;
+    position: relative;
+    margin-top: -15vw;
+    left: 60%;
+    width: 22%;
+    height: 40px;
+    font-size: 15px;
+    background-color: #845988;
+    color: #F4F3EE;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    opacity: 1;
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  
+  .highlightButton:hover::before {
+    opacity: 0;
+    transform: translateY(50%) rotateX(90deg);
+  }
+  
+  .highlightButton:hover::after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+  
+  .highlightButton::after,
+  .highlightButton::before {
+    top: 0;
+    left: 0;
+    display: block;
+    background: transparent;
+    line-height: 40px;
+    position: absolute;
+    content: attr(data-back);
+    transform: translateY(-50%) rotateX(90deg);
+    transition: all 0.5s ease;
+  }
+  
+  .highlightButton::after {
+    border: 3px solid #845988;
+    background: #F4F3EE;
+    color: #845988;
+    border-radius: 20px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+  }
+  
+  .highlightButton.flipped::before {
+    opacity: 0;
+  }
+  
+  .highlightButton.flipped::after {
+    opacity: 1;
+    transform: translateY(0) rotateX(0);
+  }
+  
+  .paragraph8_frame1 {
+    color: #8A817C;
+    font-family: 'Magra', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15vw;
+    position: relative;
+  }
+  .paragraph9_frame1 {
+    display: none;
+
+  }
+  
+  
+  .carousel {
+    display: none;
+  }
+  
+  .Volunteering_icons {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 50px;
+    transform: translateX(15vw); /* Center the buttons horizontally */
+  }
+  
+  .button_scouts,
+  .button_acces,
+  .button_shakespeare {
+    width: 11vw; /* Adjust as needed for responsive size */
+    height: 11vw; /* Adjust as needed for responsive size */
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 5vw;
+  }
+  
+  .button_scouts {
+    background: url("/public/assets/scouts.png");
+    background-size: cover;
+  }
+  
+  .button_acces {
+    background: url("/public/assets/275987697_1228260911268067_823808366275849239_n.jpg");
+    background-size: cover;  
+  }
+  
+  
+  .button_shakespeare {
+    background: url("/public/assets/shakespar.png");
+    background-size: cover;
+  }
+  
+  .moreinfo_Scouts,
+  .moreinfo_Acces_Oltenia,
+  .moreinfo_Shakespeare {
+    position:absolute;
+    background-color: #F0E1DD;
+    width: 27vw;
+    height: 32vw;
+    border-radius: 10px;
+    font-family: 'Magra', sans-serif;
+    padding: 20px; /* Add padding for better readability */
+    box-sizing: border-box;
+    z-index: 1000; /* Ensure tooltips are above other content */
+    overflow-y: auto;
+    font-size: 15px;
+    
+  }
+  
+  .moreinfo_Scouts{
+    left: 0%;
+  }
+  .moreinfo_Acces_Oltenia{
+    left: 30%;
+  }
+  .moreinfo_Shakespeare {
+    left:60%;
+  }
+  /* Show tooltips when their respective class is added */
+  .visible1,
+  .visible2,
+  .visible3 {
+    display: block;
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 767px){
+    .Frame2{
+      height: 100%;
+      top: 0%;
+    }
+  
+    .About_Me {
+      position: relative;
+      font-size: 7vw;
+      font-family: 'Magra', sans-serif;
+      font-weight: bold;
+      color: #463F3A;
+      left: 10.4%;
+      width: 40%;
+      top: 20px;
+    }
+  
+    .Purple_Square1 {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #E6DAE7;
+      width: 45vw;
+      height: 30vw;
+      top: 10%;
+      border-radius: 3%;
+      margin-left: 10%;
+    }
+  
+    .Purple_Square2 {
+      position: relative;
+      background-color: #E6DAE7;
+      width: 90%;
+      height: 100%;
+      transform: translateY(-17vw);
+      border-radius: 4%;
+      border: 7px solid #FFFFFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 120%;
+    }
+  
+    .My_photo2 {
+      width: 20vw;
+    }
+  
+    .myname2 {
+      position: relative;
+      transform: translateY(25%);
+      font-family: 'Magra', sans-serif;
+      font-weight: bold;
+      color: #463F3A;
+      font-size: 3vw;
+      left: -13%;
+      width: 50%;
+    }
+  
+    .myname2_underparagraph {
+      position: relative;
+      font-family: 'Magra', sans-serif;
+      width: 90%;
+      font-size: 2.2vw;
+      top: 12%;
+      left: 0%;
+    }
+  
+    .scrollable-container {
+      position: relative;
+      width: 92%;
+      height: 100%;
+      max-height: 28vw;
+      overflow-y: auto;
+      overflow-x: hidden;
+      right: -6%;
+      top: 28vw;
+    }
+  
+    .scrollable-paragraph {
+      width: 90%;
+      font-family: 'Magra', sans-serif;
+      color: #000000;
+      font-size: 3vw;
+      margin: 0;
+      padding: 2px;
+    }
+  
+    .highlighted {
+      background-color: #E6DAE7;
+      border-radius: 10px;
+    }
+  
+    .highlightButton {
+      font-family: 'Magra', sans-serif;
+      position: relative;
+      right: -8%;
+      width: 20vw;
+      top: 22vw;
+      height: 7vw;
+      font-size: 3vw;
+      background-color: #845988;
+      color: #F4F3EE;
+      border-radius: 20px;
+      text-align: center;
+      line-height: 7vw;
+      opacity: 1;
+      outline: 0;
+      cursor: pointer;
+      transition: all 0.5s ease;
+    }
+  
+    .highlightButton:hover::before {
+      opacity: 0;
+      transform: translateY(50%) rotateX(90deg);
+    }
+  
+    .highlightButton:hover::after {
+      opacity: 1;
+      transform: translateY(0) rotateX(0);
+    }
+  
+    .highlightButton::after,
+    .highlightButton::before {
+      top: 0;
+      left: 0;
+      display: block;
+      background: transparent;
+      line-height: 7vw;
+      position: absolute;
+      content: attr(data-back);
+      transform: translateY(-50%) rotateX(90deg);
+      transition: all 0.5s ease;
+    }
+  
+    .highlightButton::after {
+      border: 3px solid #845988;
+      background: #F4F3EE;
+      color: #845988;
+      border-radius: 20px;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      line-height: 7vw;
+    }
+  
+    .highlightButton.flipped::before {
+      opacity: 0;
+    }
+  
+    .highlightButton.flipped::after {
+      opacity: 1;
+      transform: translateY(0) rotateX(0);
+    }
+  
+    .paragraph8_frame1 {
+      display: none;
+
+    }
+    .paragraph9_frame1 {
+      color: #8A817C;
+      font-family: 'Magra', sans-serif;
+      font-size: 3vw;
+      text-align: center;
+      margin-top: 35vw;
+      margin-right: 6%;
+
+    }
+    .pc_icons{
+      display: none;
+    }
+    
+    .scrollable-content-frame2 {
+      max-height: 400px; /* Adjust as needed */
+      -webkit-overflow-scrolling: touch; /* Enable momentum scrolling on iOS */
+      padding: 10px; /* Add some padding for better readability */
+      position: relative;
+      top: 0px;
+      height: 25vw;
+      width: 70%;
+      font-family: 'Magra', sans-serif;
+      font-size: 3vw;
+      left: 12%;
+      overflow-y: auto; /* Enable vertical scrolling */
+      overflow-x: hidden;
+      text-align: left;
+    }
+    
+    .custom-arrow {
+      position: absolute;
+      transform: translateY(-50%);
+      background-color: #E6DAE7;
+      border: none;
+      color: #000000;
+      font-size: 2vw;
+      padding: 8px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-family: 'Magra', sans-serif;
+      font-weight: bold;
+    }
+    
+    .custom-arrow.prev {
+      left: 10px;
+      z-index: 2;
+      transform: translateY(10vw);
+    }
+    
+    .custom-arrow.next {
+      right: 30px;
+      z-index: 2;
+      transform: translateY(-15.5vw);
+    }
+    
+    .custom-arrow:hover {
+      background-color: #845988;
+    }
+    
+    .GreyLine2 {
+      display: none;
+    }
+  }
+
+
+
+
+
+

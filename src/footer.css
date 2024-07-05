@@ -1,0 +1,585 @@
+@media (min-width: 991px){
+
+.Frame5 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.Title1_frame5 {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-weight: bold;
+    font-size: 3.2vw;
+    width: 20%;
+    left: 13%;
+    top: 10%;
+}
+
+
+.effect.effect-1 {
+    transition: all 0.2s linear 0s;
+    position: relative; /* Add this line */
+  }
+  
+  .effect.effect-1:before {
+    content: "\f0e0"; /* Unicode for the envelope icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    background-color: #F4F3EE;
+    transition: all 0.2s linear 0s;
+  }
+  
+  
+  /* Define the hover effect */
+  .effect.effect-1:hover {
+    text-indent: -20px;
+  }
+  
+  /* Define the hover effect for the icon */
+  .effect.effect-1:hover:before {
+    opacity: 1;
+    text-indent: 0px;
+    border-radius: 15px;
+  }
+.HireMe_frame5 {
+    position: relative;
+    background-color: #E6DAE7;
+    color: #322439;
+    width: 12%;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Magra', sans-serif;
+    font-size: 1.5vw;
+    left: 13%;
+    top: 12%;
+    text-decoration: none;
+
+}
+a.HireMe_frame5-link {
+    text-decoration: none; /* Remove underline from the link */
+    color: inherit; /* Use the original color */
+}
+.Right_rows{
+    width: 30%;
+    position: relative;
+    left: 55%;
+    top: -15%;
+}
+.PhoneNumber,
+.Emailaddres,
+.Follow {
+    position: relative;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-size: 1.4vw;
+    text-align:right;
+}
+.Follow{
+    top: 10%;
+}
+
+.Images_frame5 {
+    position: relative;
+    width: 25vw;
+    height: 70px;
+    top: -20%;
+    left: 15%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+:root {
+    --github2-color: #F4F3EE;
+    --github2-hover: #150F18;
+
+}
+.github2:hover,
+.github2:focus,
+.instagram2:hover,
+.instagram2:focus,
+.linkedin2:hover,
+.linkedin2:focus,
+.facebook2:hover,
+.facebook2:focus{
+    box-shadow: 0.5em 0.5em 1em -0.2em var(--github2-hover);
+    transform: translateY(-0.25em);
+    border-color: var(--github2-hover);
+    color: var(--github2-hover);
+
+}
+
+.github2,
+.instagram2,
+.linkedin2,
+.facebook2 {
+    width: 3vw;
+    border-radius: 20%;
+}
+
+.Footer {
+    position: relative;
+    width: 35%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-family: 'Magra', sans-serif;
+    font-size: 1.5vw;
+    margin-top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0%;
+}
+.link-aboutme {
+    color: #FFFFFF; 
+    text-decoration: none; 
+}
+
+.link-aboutme:hover, 
+.link-aboutme:focus { 
+    color: #150F18; 
+}
+.link-academics {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link-academics:hover, 
+.link-academics:focus { 
+    color: #150F18;
+
+}
+
+.link-projects{
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+.link-projects:hover, 
+.link-projects:focus { 
+    color: #150F18; 
+
+}
+.link-contact{
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+
+.link-contact:hover, 
+.link-contact:focus { 
+    color: #150F18; 
+
+}
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .Frame5 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .Title1_frame5 {
+        position: relative;
+        color: #FFFFFF;
+        font-family: 'Magra', sans-serif;
+        font-weight: bold;
+        font-size: 3.2vw;
+        width: 20%;
+        left: 13%;
+        top: 20%;
+    }
+    
+    
+    .effect.effect-1 {
+        transition: all 0.2s linear 0s;
+        position: relative; /* Add this line */
+      }
+      
+      .effect.effect-1:before {
+        content: "\f0e0"; /* Unicode for the envelope icon */
+        font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+        font-size: 15px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        height: 100%;
+        width: 40px;
+        background-color: #F4F3EE;
+        transition: all 0.2s linear 0s;
+      }
+      
+      
+      /* Define the hover effect */
+      .effect.effect-1:hover {
+        text-indent: -20px;
+      }
+      
+      /* Define the hover effect for the icon */
+      .effect.effect-1:hover:before {
+        opacity: 1;
+        text-indent: 0px;
+        border-radius: 15px;
+      }
+    .HireMe_frame5 {
+        position: relative;
+        background-color: #E6DAE7;
+        color: #322439;
+        width: 12%;
+        height: 60px;
+        border-radius: 15px;
+        text-align: center;
+        line-height: 60px;
+        font-family: 'Magra', sans-serif;
+        font-size: 2vw;
+        left: 13%;
+        top: 20%;
+        text-decoration: none;
+    
+    }
+    a.HireMe_frame5-link {
+        text-decoration: none; /* Remove underline from the link */
+        color: inherit; /* Use the original color */
+    }
+    .Right_rows{
+        width: 35%;
+        position: relative;
+        left: 52%;
+        top: -15%;
+    }
+    .PhoneNumber,
+    .Emailaddres,
+    .Follow {
+        position: relative;
+        color: #FFFFFF;
+        font-family: 'Magra', sans-serif;
+        font-size: 2vw;
+        text-align:right;
+    }
+    .Follow{
+        top: 10%;
+    }
+    
+    .Images_frame5 {
+        position: relative;
+        width: 27vw;
+        height: 70px;
+        top: -20%;
+        left: 23%;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+    :root {
+        --github2-color: #F4F3EE;
+        --github2-hover: #150F18;
+    
+    }
+    .github2:hover,
+    .github2:focus,
+    .instagram2:hover,
+    .instagram2:focus,
+    .linkedin2:hover,
+    .linkedin2:focus,
+    .facebook2:hover,
+    .facebook2:focus{
+        box-shadow: 0.5em 0.5em 1em -0.2em var(--github2-hover);
+        transform: translateY(-0.25em);
+        border-color: var(--github2-hover);
+        color: var(--github2-hover);
+    
+    }
+    
+    .github2,
+    .instagram2,
+    .linkedin2,
+    .facebook2 {
+        width: 3.5vw;
+        border-radius: 20%;
+    }
+    
+    .Footer {
+        position: relative;
+        width: 35%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #FFFFFF;
+        font-family: 'Magra', sans-serif;
+        font-size: 2vw;
+        margin-top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0%;
+    }
+    .link-aboutme {
+        color: #FFFFFF; 
+        text-decoration: none; 
+    }
+    
+    .link-aboutme:hover, 
+    .link-aboutme:focus { 
+        color: #150F18; 
+    }
+    .link-academics {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .link-academics:hover, 
+    .link-academics:focus { 
+        color: #150F18;
+    
+    }
+    
+    .link-projects{
+        color: #FFFFFF; 
+        text-decoration: none;
+    }
+    
+    .link-projects:hover, 
+    .link-projects:focus { 
+        color: #150F18; 
+    
+    }
+    .link-contact{
+        color: #FFFFFF; 
+        text-decoration: none;
+    }
+    
+    .link-contact:hover, 
+    .link-contact:focus { 
+        color: #150F18; 
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+    .Frame5 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .Title1_frame5 {
+        position: relative;
+        color: #FFFFFF;
+        font-family: 'Magra', sans-serif;
+        font-weight: bold;
+        font-size: 3.2vw;
+        width: 20%;
+        left: 13%;
+        top: 20%;
+    }
+    
+    
+    .effect.effect-1 {
+        transition: all 0.2s linear 0s;
+        position: relative; /* Add this line */
+      }
+      
+      .effect.effect-1:before {
+        content: "\f0e0"; /* Unicode for the envelope icon */
+        font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+        font-size: 15px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        height: 100%;
+        width: 40px;
+        background-color: #F4F3EE;
+        transition: all 0.2s linear 0s;
+      }
+      
+      
+      /* Define the hover effect */
+      .effect.effect-1:hover {
+        text-indent: -20px;
+      }
+      
+      /* Define the hover effect for the icon */
+      .effect.effect-1:hover:before {
+        opacity: 1;
+        text-indent: 0px;
+        border-radius: 15px;
+      }
+    .HireMe_frame5 {
+        position: relative;
+        background-color: #E6DAE7;
+        color: #322439;
+        width: 15%;
+        height: 7vw;
+        border-radius: 2.5vw;
+        text-align: center;
+        line-height: 7vw;
+        font-family: 'Magra', sans-serif;
+        font-size: 2vw;
+        left: 13%;
+        top: 20%;
+        text-decoration: none;
+    
+    }
+    a.HireMe_frame5-link {
+        text-decoration: none; /* Remove underline from the link */
+        color: inherit; /* Use the original color */
+    }
+    .Right_rows{
+        width: 35%;
+        position: relative;
+        left: 52%;
+        top: -15%;
+        height: auto;
+    }
+    .PhoneNumber,
+    .Emailaddres,
+    .Follow {
+        position: relative;
+        color: #FFFFFF;
+        font-family: 'Magra', sans-serif;
+        font-size: 2.5vw;
+        text-align:right;
+        margin-bottom: 5px;
+    }
+    .Follow{
+        top: 15%;
+    }
+    
+    .Images_frame5 {
+        position: relative;
+        width: 27vw;
+        height: 20px;
+        top: -20%;
+        left: 23%;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        margin-bottom: 20%;
+    }
+    :root {
+        --github2-color: #F4F3EE;
+        --github2-hover: #150F18;
+    
+    }
+    .github2:hover,
+    .github2:focus,
+    .instagram2:hover,
+    .instagram2:focus,
+    .linkedin2:hover,
+    .linkedin2:focus,
+    .facebook2:hover,
+    .facebook2:focus{
+        box-shadow: 0.5em 0.5em 1em -0.2em var(--github2-hover);
+        transform: translateY(-0.25em);
+        border-color: var(--github2-hover);
+        color: var(--github2-hover);
+    
+    }
+    
+    .github2,
+    .instagram2,
+    .linkedin2,
+    .facebook2 {
+        width: 3.5vw;
+        border-radius: 20%;
+    }
+    
+    .Footer {
+        position: relative;
+        width: 35%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #FFFFFF;
+        font-family: 'Magra', sans-serif;
+        font-size: 2vw;
+        margin-top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0%;
+    }
+    .link-aboutme {
+        color: #FFFFFF; 
+        text-decoration: none; 
+    }
+    
+    .link-aboutme:hover, 
+    .link-aboutme:focus { 
+        color: #150F18; 
+    }
+    .link-academics {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .link-academics:hover, 
+    .link-academics:focus { 
+        color: #150F18;
+    
+    }
+    
+    .link-projects{
+        color: #FFFFFF; 
+        text-decoration: none;
+    }
+    
+    .link-projects:hover, 
+    .link-projects:focus { 
+        color: #150F18; 
+    
+    }
+    .link-contact{
+        color: #FFFFFF; 
+        text-decoration: none;
+    }
+    
+    .link-contact:hover, 
+    .link-contact:focus { 
+        color: #150F18; 
+    
+    }
+}

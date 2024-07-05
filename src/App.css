@@ -1,0 +1,346 @@
+/* App.css */
+
+@media (min-width: 991px){
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 0.05fr 0.5fr 0.5fr 0.7fr 1fr 0.6fr;
+    gap: 20px; /* Adjust gap between frames */
+    width: 100%;
+    padding: 0; /* Remove padding to fit perfectly */
+    box-sizing: border-box;
+    margin-left: 2px;
+    grid-gap:30px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+   .frame {
+    /*background-color: #f0f0f0; /* Background color for the frames */
+    /*border: 1px solid #ccc; /* Border for better visibility */
+    /*border-radius: 8px;*/
+    margin-left: 1.5vw;
+    }
+
+   .navbar {
+    background-color: #f0f0f0; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    grid-row: 1;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 80px 0px; /* Reduce padding */
+    }
+
+.frame1 {
+    grid-row: 2;
+    width: 97%; /* Ensure Frame1 spans the full width */
+    height: 100%;
+    padding: 0; /* Remove padding to fit perfectly */
+    margin-top: 120px;
+   
+}
+
+.frame2 {
+    grid-row: 3;
+    width: 97%; /* Ensure Frame2 spans the full width */
+    height: 100%;
+    padding: 0; /* Remove padding to fit perfectly */
+    margin-top: 150px;
+    position: relative; 
+}
+
+.frame3 {
+    grid-row: 4;
+    width: 97%; /* Ensure Frame2 spans the full width */
+    height: 100%;
+    margin-top: 200px;
+}
+
+.frame4 {
+    grid-row: 5;
+    width: 97%; /* Ensure Frame2 spans the full width */
+    height: 100%;
+    margin-top: 300px;
+}
+.footer {
+    grid-row: 6;
+    width: 100%; 
+    height: 70%;
+    padding: 0; /* Remove padding to fit perfectly */
+    margin-top: 300px;
+    background-color: #322439; /* Background color for the frames */
+    border: 1px solid #ccc; /* Border for better visibility */
+}
+.GreyLine1 {
+    position: relative;
+    bottom: 0;
+    background-color: #8A817C;
+    width: 60%;
+    height: 2px;
+    border-radius: 10px;
+    left: 20%;
+  }
+
+ .GreyLine2{
+    position: relative;
+    bottom: 0;
+    background-color: #8A817C;
+    width: 60%;
+    height: 2px;
+    border-radius: 10px;
+    left: 20%;
+ }
+ .GreyLine3{
+    position: relative;
+    bottom: 0;
+    background-color: #8A817C;
+    width: 60%;
+    height: 2px;
+    border-radius: 10px;
+    left: 20%;
+
+}
+.GreyLine4{
+    position: relative;
+    bottom: 0;
+    background-color: #8A817C;
+    width: 60%;
+    height: 2px;
+    border-radius: 10px;
+    left: 20%;
+
+}
+}
+
+
+
+
+
+
+
+
+
+/* Responsive styles */
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .App {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-rows: 0.05fr 0.5fr 0.5fr 0.7fr 1fr 0.6fr;
+        gap: 20px; /* Adjust gap between frames */
+        width: 100%;
+        padding: 0; /* Remove padding to fit perfectly */
+        box-sizing: border-box;
+        margin-left: 2px;
+        grid-gap:20px;
+    }
+    
+       .frame {
+        /*background-color: #f0f0f0; /* Background color for the frames */
+       /*border: 1px solid #ccc; /* Border for better visibility */
+       /* border-radius: 8px;*/
+        margin-left: 1.5vw;
+        }
+    
+       .navbar {
+        background-color: #f0f0f0; 
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        grid-row: 1;
+        width: 70%;
+        left: 0;
+        top: 0;
+        padding: 30px 40px; /* Reduce padding */
+        }
+    
+    .frame1 {
+        grid-row: 2;
+        width: 97%; /* Ensure Frame1 spans the full width */
+        height: 90%;
+        padding: 0; /* Remove padding to fit perfectly */
+        margin-top: 150px;
+    }
+    
+    .frame2 {
+        grid-row: 3;
+        width: 97%; /* Ensure Frame2 spans the full width */
+        height: 100%;
+        margin-top: 150px;
+    }
+    
+    .frame3 {
+        grid-row: 4;
+        width: 97%; /* Ensure Frame2 spans the full width */
+        height: 100%;
+        margin-top: 200px;
+    }
+    .frame4 {
+        grid-row: 5;
+        width: 97%; /* Ensure Frame2 spans the full width */
+        height: 100%;
+        margin-top: 250px;
+    }
+    .footer {
+        grid-row: 6;
+        width: 100%; 
+        height: auto;
+        padding: 0; /* Remove padding to fit perfectly */
+        margin-top: 300px;
+        background-color: #322439; /* Background color for the frames */
+        border: 1px solid #ccc; /* Border for better visibility */
+    }
+    
+    .GreyLine1 {
+        position: relative;
+        bottom: 0;
+        background-color: #8A817C;
+        width: 60%;
+        height: 2px;
+        border-radius: 10px;
+        left: 20%;
+      }
+      .GreyLine2{
+        position: relative;
+        bottom: 0;
+        background-color: #8A817C;
+        width: 60%;
+        height: 2px;
+        border-radius: 10px;
+        left: 20%;
+     }
+     .GreyLine3{
+        position: relative;
+        bottom: 0;
+        background-color: #8A817C;
+        width: 60%;
+        height: 2px;
+        border-radius: 10px;
+        left: 20%;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) { /*phone size*/
+    .App {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-rows: 0fr 0.5fr 0.7fr 0.5fr 0.5fr 0.5fr;
+        gap: 20px; /* Adjust gap between frames */
+        width: 100%;
+        height: 100%;
+        padding: 0; /* Remove padding to fit perfectly */
+        box-sizing: border-box;
+        grid-gap:5vw;
+    }
+    
+    .frame {
+       /* background-color: #f0f0f0; /* Background color for the frames */
+       /* border: 1px solid #ccc; /* Border for better visibility */
+       /* border-radius: 8px;*/
+        margin-left: 1.5vw;
+        }
+    
+       .navbar {
+        background-color: #f0f0f0; /* Background color for the frames */
+        border: 1px solid #ccc; /* Border for better visibility */
+        border-radius: 8px;
+        grid-row: 1;
+        width: 100%;
+        left: 10px;
+        top: 0;
+        padding: 10px 10px; /* Reduce padding */
+        }
+    
+    .frame1 {
+        grid-row: 2;
+        width: 97%; /* Ensure Frame1 spans the full width */
+        height: 110vw;
+        padding: 0; /* Remove padding to fit perfectly */
+        margin-top: 100px;
+        position: relative;
+    }
+    
+    .frame2 {
+        grid-row: 3;
+        width: 97%; /* Ensure Frame2 spans the full width */
+        height: 160vw;
+        margin-top: 5vw;
+        position: relative;
+    }
+    
+    .frame3 {
+        grid-row: 4;
+        width: 97%;
+        height: 170vw;
+        position: relative;
+    }
+    .frame4 {
+        grid-row: 5;
+        width: 97%; 
+        height: 100vw;
+        margin-top: 20px;
+    }
+    .footer {
+        grid-row: 6;
+        width: 100%; 
+        height: auto;
+        padding: 0; /* Remove padding to fit perfectly */
+        margin-top: 20px;
+        background-color: #322439; /* Background color for the frames */
+        left: 0;
+    }
+    
+    .GreyLine1 {
+       display: none;
+      }
+      .GreyLine2 {
+       display: none;
+      }
+      .GreyLine3 {
+        display: none;
+       }
+       .GreyLine4 {
+        display: none;
+       }
+}
