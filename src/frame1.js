@@ -18,7 +18,7 @@ function Frame1() {
         
         <div>
           <img 
-            src="/Web-Portofolio/assets/image_2024-05-12_181334664-removebg-preview.png" 
+            src="%PUBLIC_URL%/assets/image_2024-05-12_181334664-removebg-preview.png" 
             alt="Sitting down" 
             className="mesittindown"
             
@@ -30,7 +30,7 @@ function Frame1() {
             <a href="mailto:dariawisterya@gmail.com" className="button1_frame1">Hire me</a>
           </div>
           <div className="button2_frame1 effect_frame1 effect-4">
-            <a href="assets/Cv.pdf" download="cv.pdf"  style={{ textDecorationStyle: 'none'}}>Get CV</a>
+            <a href="/assets/Cv.pdf" download="cv.pdf"  style={{ textDecorationStyle: 'none'}}>Get CV</a>
           </div>
         </div>
         
