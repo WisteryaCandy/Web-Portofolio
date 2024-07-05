@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/WisteryaCandy/Web-Portofolio.git/static/css/main.b7770d64.css",
+    "main.js": "/WisteryaCandy/Web-Portofolio.git/static/js/main.3b70e33f.js",
+    "static/js/453.6a54098e.chunk.js": "/WisteryaCandy/Web-Portofolio.git/static/js/453.6a54098e.chunk.js",
+    "static/media/815EaMGGxQL.png": "/WisteryaCandy/Web-Portofolio.git/static/media/815EaMGGxQL.6b34bab92f15224f4e0e.png",
+    "static/media/scouts.png": "/WisteryaCandy/Web-Portofolio.git/static/media/scouts.329e04d4b1ed36ffbd7c.png",
+    "static/media/275987697___n.jpg": "/WisteryaCandy/Web-Portofolio.git/static/media/275987697_1228260911268067_823808366275849239_n.876938c429a3646425ab.jpg",
+    "static/media/shakespar.png": "/WisteryaCandy/Web-Portofolio.git/static/media/shakespar.e94ba1fc1604328a4b35.png",
+    "index.html": "/WisteryaCandy/Web-Portofolio.git/index.html",
+    "main.b7770d64.css.map": "/WisteryaCandy/Web-Portofolio.git/static/css/main.b7770d64.css.map",
+    "main.3b70e33f.js.map": "/WisteryaCandy/Web-Portofolio.git/static/js/main.3b70e33f.js.map",
+    "453.6a54098e.chunk.js.map": "/WisteryaCandy/Web-Portofolio.git/static/js/453.6a54098e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7770d64.css",
+    "static/js/main.3b70e33f.js"
+  ]
+}
