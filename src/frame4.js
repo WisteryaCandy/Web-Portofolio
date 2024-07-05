@@ -30,7 +30,7 @@ const Frame4 = () => {
       { src: "/assets/flappybird.png", alt: "Flappy Bird" },
       { src: "/assets/proiecttrencrop.png", alt: "Project Train Crop" },
       { src: "/assets/sitenou2.png", alt: "Site Nou 2" },
-      { src: "/assets/SITEUE2.png", alt: "Site UE 2" },
+      { src: "/assets/SITEUE2.PNG", alt: "Site UE 2" },
       { src: "/assets/characterselection.png", alt: "Character Selection" },
       { src: "/assets/proiecttren.png", alt: "Project Train" },
       { src: "/assets/sitewebproiect2.png", alt: "Site Web Project 2" },
