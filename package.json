@@ -1,6 +1,7 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
+  "homepage": "https://WisteryaCandy.github.io/Web-Portofolio",
   "private": true,
   "dependencies": {
     "@fancyapps/ui": "^5.0.36",
@@ -47,6 +48,5 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.1.1"
-  },
-  "homepage": "https://github.com/WisteryaCandy/Web-Portofolio.git"
+  }
 }
