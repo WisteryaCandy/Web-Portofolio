@@ -1,7 +1,7 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
-  "homepage": "https://WisteryaCandy.github.io/Web-Portofolio",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@fancyapps/ui": "^5.0.36",
