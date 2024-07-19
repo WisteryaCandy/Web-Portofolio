@@ -530,7 +530,7 @@
       color: #463F3A;
       left: 10.4%;
       width: 40%;
-      top: 20px;
+      top: 0px;
     }
   
     .Purple_Square1 {
@@ -544,7 +544,7 @@
       height: 30vw;
       border-radius: 3%;
       margin-left: 10%;
-      top: 17vw;
+      top: 10vw;
     }
   
     .Purple_Square2 {
@@ -558,7 +558,7 @@
       align-items: center;
       justify-content: center;
       margin-left: 40%;
-      transform: translateY(-40%);
+      transform: translateY(-70%);
     }
     .My_photo2 {
       width: 19vw;
@@ -592,7 +592,7 @@
       overflow-y: auto;
       overflow-x: hidden;
       right: -6%;
-      top: 7vw;
+      top:-2vw;
     }
   
     .scrollable-paragraph {
@@ -614,7 +614,7 @@
       position: relative;
       right: -8%;
       width: 20vw;
-      top: 2vw;
+      top: -8vw;
       height: 7vw;
       font-size: 3vw;
       background-color: #845988;
@@ -680,7 +680,7 @@
       font-family: 'Magra', sans-serif;
       font-size: 3vw;
       text-align: center;
-      margin-top: 15vw;
+      margin-top: 6vw;
       margin-right: 6%;
 
     }
