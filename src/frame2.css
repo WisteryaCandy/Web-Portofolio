@@ -281,30 +281,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #E6DAE7;
-    width: 22vw;
-    height: 18vw;
+    width: 23vw;
+    height: 20vw;
     border-radius: 3%;
-    margin-left: 7%;
-    top: 100px;
+    margin-left: 10%;
+    top: 13vw;
   }
   
   .Purple_Square2 {
     position: relative;
     background-color: #E6DAE7;
     width: 20vw;
-    height: 16vw;
+    height: 17vw;
     border-radius: 8%;
     border: 5px solid #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 22%;
-    transform: translateY(-30%);
+    margin-left: 24%;
+    transform: translateY(-32%);
   }
   
   .My_photo2 {
-    width: 11vw;
+    width: 12.5vw;
   }
   
   .myname2 {
@@ -314,8 +315,9 @@
     font-weight: bold;
     color: #463F3A;
     font-size: 2vw;
-    left: -5%;
+    left: -12%;
     width: 60%;
+    top: -10%;
   }
   
   .myname2_underparagraph {
@@ -323,7 +325,7 @@
     font-family: 'Magra', sans-serif;
     width: 90%;
     font-size:1.3vw;
-    top: 12%;
+    top: 5%;
     left: 0%;
   }
   
