@@ -364,11 +364,11 @@
     }
     
     .Gamedevelopment{
-        position: relative;
+        position: absolute;
         width: 75%;
-        height: 35%;
+        height: 65%;
         left: 14%;
-        top: 10%;
+        top: 30%;
        
     }
     
@@ -380,7 +380,7 @@
     }
     .Square2_gamedevelopment{
         position: relative;
-        top: 32.5vw;
+        top: 36vw;
         right: 29.5%;
     }
     .Square2_gamedevelopment,
