@@ -12,7 +12,7 @@
     font-weight: bold;
     color: #463F3A;
     left: 10.4%;
-    top: 10%;
+    top: 13%;
   }
   .mobile_icons{
     display: none;
@@ -23,6 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: #E6DAE7;
     width: 22vw;
     height: 17vw;
@@ -34,15 +35,15 @@
   .Purple_Square2 {
     position: relative;
     background-color: #E6DAE7;
-    width: 90%;
-    height: 90%;
-    transform: translateY(-45%);
-    border-radius: 4%;
-    border: 7px solid #FFFFFF;
+    width: 18vw;
+    height: 14vw;
+    border-radius: 8%;
+    border: 5px solid #FFFFFF;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-left: 100%;
+    justify-content: center;
+    margin-left: 23%;
+    transform: translateY(12%);
   }
   
   .My_photo2 {
@@ -51,7 +52,7 @@
   
   .myname2 {
     position: relative;
-    transform: translateY(50%);
+    transform: translateY(0%);
     font-family: 'Magra', sans-serif;
     font-weight: bold;
     color: #463F3A;
@@ -71,7 +72,7 @@
   
   .scrollable-container {
     position: relative;
-    width: 47%;
+    width: 55%;
     height: 19vw;
     overflow-y: auto;
     overflow-x: hidden;
@@ -81,7 +82,7 @@
   }
   
   .scrollable-paragraph {
-    width: 90%;
+    width: 100%;
     font-family: 'Magra', sans-serif;
     color: #000000;
     font-size: 110%;
@@ -111,7 +112,7 @@
     outline: 0;
     cursor: pointer;
     transition: all 0.5s ease;
-     margin-top: -10%;
+    margin-top: -22vw;
   }
   
   .highlightButton:hover::before {
@@ -281,7 +282,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #E6DAE7;
-    width: 25vw;
+    width: 22vw;
     height: 18vw;
     border-radius: 3%;
     margin-left: 7%;
@@ -291,30 +292,30 @@
   .Purple_Square2 {
     position: relative;
     background-color: #E6DAE7;
-    width: 90%;
-    height: 100%;
-    transform: translateY(-60%);
-    border-radius: 4%;
+    width: 20vw;
+    height: 16vw;
+    border-radius: 8%;
     border: 5px solid #FFFFFF;
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-left: 120%;
+    justify-content: center;
+    margin-left: 22%;
+    transform: translateY(-30%);
   }
   
   .My_photo2 {
-    width: 12vw;
+    width: 11vw;
   }
   
   .myname2 {
     position: relative;
-    transform: translateY(25%);
+    transform: translateY(30%);
     font-family: 'Magra', sans-serif;
     font-weight: bold;
     color: #463F3A;
     font-size: 2vw;
-    left: -13%;
-    width: 50%;
+    left: -5%;
+    width: 60%;
   }
   
   .myname2_underparagraph {
@@ -328,16 +329,16 @@
   
   .scrollable-container {
     position: relative;
-    width: 47%;
+    width: 58%;
     height: 19vw;
     overflow-y: auto;
     overflow-x: hidden;
-    left: 60%;
+    left: 45%;
     margin-top: 3vw;
   }
   
   .scrollable-paragraph {
-    width: 90%;
+    width: 100%;
     font-family: 'Magra', sans-serif;
     color: #000000;
     font-size: 95%;
@@ -354,8 +355,8 @@
   .highlightButton {
     font-family: 'Magra', sans-serif;
     position: relative;
-    margin-top: -15vw;
-    left: 60%;
+    margin-top: -31vw;
+    left: 45%;
     width: 22%;
     height: 40px;
     font-size: 15px;
@@ -649,7 +650,7 @@
     }
   
     .highlightButton::after {
-      border: 3px solid #845988;
+      border: 0.5vw solid #845988;
       background: #F4F3EE;
       color: #845988;
       border-radius: 20px;

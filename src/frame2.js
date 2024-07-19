@@ -106,10 +106,11 @@ const Frame2 = () => {
           <p className="myname2_underparagraph">Software engineer~
             Computer science major</p>
         </div>
-        <div className="Purple_Square2">
+      </div>
+
+      <div className="Purple_Square2">
           <img src="/assets/image_2024-05-12_190546285-removebg-preview.png" className="My_photo2" alt="Daria Giotina" />
         </div>
-      </div>
 
       <div className="container">
         <div 
