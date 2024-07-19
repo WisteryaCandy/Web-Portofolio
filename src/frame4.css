@@ -380,7 +380,7 @@
     }
     .Square2_gamedevelopment{
         position: relative;
-        top: 34vw;
+        top: 32.5vw;
         right: 29.5%;
     }
     .Square2_gamedevelopment,
@@ -395,7 +395,7 @@
     }
     .Description_gamedevelopment{
         position: relative;
-        border: 0.8vw solid #E6DAE7;
+        border: 0.6vw solid #E6DAE7;
         border-radius: 20px;
         width: 39%;
         height: 100%;
