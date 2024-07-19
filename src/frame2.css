@@ -538,35 +538,35 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       background-color: #E6DAE7;
       width: 45vw;
       height: 30vw;
-      top: 10%;
       border-radius: 3%;
       margin-left: 10%;
+      top: 17vw;
     }
   
     .Purple_Square2 {
       position: relative;
       background-color: #E6DAE7;
-      width: 90%;
-      height: 100%;
-      transform: translateY(-17vw);
-      border-radius: 4%;
-      border: 7px solid #FFFFFF;
+      width: 40vw;
+      height: 25vw;
+      border-radius: 8%;
+      border: 1vw solid #FFFFFF;
       display: flex;
-      justify-content: center;
       align-items: center;
-      margin-left: 120%;
+      justify-content: center;
+      margin-left: 40%;
+      transform: translateY(-40%);
     }
-  
     .My_photo2 {
-      width: 20vw;
+      width: 19vw;
     }
   
     .myname2 {
       position: relative;
-      transform: translateY(25%);
+      transform: translateY(8%);
       font-family: 'Magra', sans-serif;
       font-weight: bold;
       color: #463F3A;
@@ -592,7 +592,7 @@
       overflow-y: auto;
       overflow-x: hidden;
       right: -6%;
-      top: 28vw;
+      top: 7vw;
     }
   
     .scrollable-paragraph {
@@ -614,7 +614,7 @@
       position: relative;
       right: -8%;
       width: 20vw;
-      top: 22vw;
+      top: 2vw;
       height: 7vw;
       font-size: 3vw;
       background-color: #845988;
@@ -680,7 +680,7 @@
       font-family: 'Magra', sans-serif;
       font-size: 3vw;
       text-align: center;
-      margin-top: 35vw;
+      margin-top: 15vw;
       margin-right: 6%;
 
     }
