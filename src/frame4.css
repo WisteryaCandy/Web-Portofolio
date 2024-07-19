@@ -638,7 +638,7 @@
     }
     .Square2_gamedevelopment{
         position: relative;
-        top: 33vw;
+        top: 32.5vw;
         right: 29.5%;
     }
     .Square2_gamedevelopment,
@@ -649,7 +649,7 @@
     }
     .Square3_gamedevelopment{
       position: relative;
-      top: 1vw;
+      top: 0.5vw;
     }
     .Title_gamedev1{
         font-size: 3.5vw;
@@ -659,7 +659,7 @@
     }
     .Description_gamedevelopment{
         position: relative;
-        border: 5px solid #E6DAE7;
+        border: 0.8vw solid #E6DAE7;
         border-radius: 20px;
         width: 39%;
         height: 100%;
@@ -675,11 +675,11 @@
     
     
     .Webdevelopment{
-        position: absolute;
+        position: relative;
         width: 75%;
         height: 65%;
         left: 14%;
-        top: 29.5%;
+        top: 10%;
        
     }
     .Square1_webdevelopment{
@@ -690,7 +690,7 @@
     
     .Square2_webdevelopment{
         position: relative;
-        top: 50%;
+        top: 32.5vw;
         right: 29.5%;
     }
     .Square2_webdevelopment,
@@ -701,7 +701,7 @@
     }
     .Square3_webdevelopment{
       position: relative;
-      top: 51%;
+      top: 0.5vw;
     }
     .Title_webdev1{
         font-size: 3.5vw;
@@ -711,7 +711,7 @@
     }
     .Description_webdevelopment{
         position: relative;
-        border: 5px solid #E6DAE7;
+        border: 0.8vw solid #E6DAE7;
         border-radius: 20px;
         width: 39%;
         height: 98%;
@@ -734,11 +734,11 @@
      }
 
     .Cprojects{
-        position: absolute;
+        position: relative;
         width: 75%;
         height: 65%;
         left: 14%;
-        top: 30%;
+        top: 10%;
        
     }
     .Square1_cprojects{
@@ -750,7 +750,7 @@
     
     .Square2_cprojects{
         position: relative;
-        top: 50%;
+        top: 32.5vw;
         right: 29.5%;
     }
     .Square2_cprojects,
@@ -761,7 +761,7 @@
     }
     .Square3_cprojects{
       position: relative;
-      top: 51%;
+      top: 0.5vw;
     }
     .Title_cprojects1{
         font-size: 3.5vw;
@@ -771,7 +771,7 @@
     }
     .Description_cprojects{
         position: relative;
-        border: 5px solid #E6DAE7;
+        border: 0.8vw solid #E6DAE7;
         border-radius: 20px;
         width: 39%;
         height: 100%;
