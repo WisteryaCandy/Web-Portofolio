@@ -622,11 +622,11 @@
     }
     
     .Gamedevelopment{
-        position: absolute;
+        position: relative;
         width: 75%;
         height: 65%;
         left: 14%;
-        top: 30%;
+        top: 10%;
        
     }
     
@@ -638,7 +638,7 @@
     }
     .Square2_gamedevelopment{
         position: relative;
-        top: 0%;
+        top: 51%;
         right: 29.5%;
     }
     .Square2_gamedevelopment,
@@ -649,7 +649,7 @@
     }
     .Square3_gamedevelopment{
       position: relative;
-      top: 51%;
+      top: 2%;
     }
     .Title_gamedev1{
         font-size: 3.5vw;
