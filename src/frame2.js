@@ -170,6 +170,7 @@ const Frame2 = () => {
             <Carousel
                  showArrows={true}
                  showStatus={false}
+                 showThumbs={false}
                  showIndicators={false}
                  infiniteLoop={false}
                  autoPlay={true}
