@@ -109,7 +109,7 @@ const Frame2 = () => {
       </div>
 
       <div className="Purple_Square2">
-          <img src="/assets/image_2024-05-12_190546285-removebg-preview.png" className="My_photo2" alt="Daria Giotina" />
+          <img src="/assets/frame2.1pic.png" className="My_photo2" alt="Daria Giotina" />
         </div>
 
       <div className="container">

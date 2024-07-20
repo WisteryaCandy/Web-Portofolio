@@ -40,14 +40,14 @@
     border-radius: 8%;
     border: 5px solid #FFFFFF;
     display: flex;
-    align-items: center;
+    align-items:end;
     justify-content: center;
     margin-left: 23%;
     transform: translateY(12%);
   }
   
   .My_photo2 {
-    width: 11vw;
+    width: 10vw;
   }
   
   .myname2 {
@@ -91,7 +91,7 @@
   }
   
   .highlighted {
-    background-color: #E6DAE7;
+    background-color: #FFFFFF;
     border-radius: 10px;
 
   }
@@ -141,7 +141,7 @@
   
   .highlightButton::after {
     border: 3px solid #845988;
-    background: #F4F3EE;
+    background: #FFFFFF;
     color: #845988;
     border-radius: 20px;
     opacity: 0;
@@ -298,14 +298,14 @@
     border-radius: 8%;
     border: 5px solid #FFFFFF;
     display: flex;
-    align-items: center;
+    align-items:end;
     justify-content: center;
     margin-left: 24%;
     transform: translateY(-32%);
   }
   
   .My_photo2 {
-    width: 12.5vw;
+    width: 11vw;
   }
   
   .myname2 {
@@ -398,7 +398,7 @@
   
   .highlightButton::after {
     border: 3px solid #845988;
-    background: #F4F3EE;
+    background: #FFFFFF;
     color: #845988;
     border-radius: 20px;
     opacity: 0;
@@ -555,13 +555,13 @@
       border-radius: 8%;
       border: 1vw solid #FFFFFF;
       display: flex;
-      align-items: center;
+      align-items:end;
       justify-content: center;
       margin-left: 40%;
       transform: translateY(-70%);
     }
     .My_photo2 {
-      width: 19vw;
+      width: 17vw;
     }
   
     .myname2 {
@@ -653,7 +653,7 @@
   
     .highlightButton::after {
       border: 0.5vw solid #845988;
-      background: #F4F3EE;
+      background: #FFFFFF;
       color: #845988;
       border-radius: 20px;
       opacity: 0;

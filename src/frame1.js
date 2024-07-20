@@ -18,7 +18,8 @@ function Frame1() {
         
         <div>
           <img 
-            src="./assets/image_2024-05-12_181334664-removebg-preview.png" 
+          
+            src="./assets/frame6pic.png" 
             alt="Sitting down" 
             className="mesittindown"
             
