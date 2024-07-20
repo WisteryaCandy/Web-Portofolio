@@ -380,7 +380,7 @@
     }
     .Square2_gamedevelopment{
         position: relative;
-        top: 50%;
+        top: 285px;
         right: 29.5%;
     }
     .Square2_gamedevelopment,
@@ -652,10 +652,10 @@
       top: 0.5vw;
     }
     .Title_gamedev1{
-        font-size: 3.5vw;
+        font-size: 3.2vw;
     }
     .Title_gamedev2{
-        font-size: 3vw;
+        font-size: 2.7vw;
     }
     .Description_gamedevelopment{
         position: relative;
@@ -668,7 +668,7 @@
         box-sizing: border-box; 
         padding: 20px;
         font-family: 'Magra', sans-serif;
-        font-size: 2.3vw;
+        font-size: 2vw;
         overflow-y: auto;
         overflow-x: hidden;
     }
@@ -704,10 +704,10 @@
       top: 0.5vw;
     }
     .Title_webdev1{
-        font-size: 3.5vw;
+        font-size: 3.2vw;
     }
     .Title_webdev2{
-        font-size: 3vw;
+        font-size: 2.7vw;
     }
     .Description_webdevelopment{
         position: relative;
@@ -718,7 +718,7 @@
         box-sizing: border-box; 
         padding: 20px;
         font-family: 'Magra', sans-serif;
-        font-size: 2.3vw;
+        font-size: 2vw;
         overflow-y: auto;
         overflow-x: hidden;
         top: -97%;
@@ -764,10 +764,10 @@
       top: 0.5vw;
     }
     .Title_cprojects1{
-        font-size: 3.5vw;
+        font-size: 3.2vw;
     }
     .Title_cprojects2{
-        font-size: 3vw;
+        font-size: 2.7vw;
     }
     .Description_cprojects{
         position: relative;
@@ -778,7 +778,7 @@
         box-sizing: border-box; 
         padding: 20px;
         font-family: 'Magra', sans-serif;
-        font-size: 2.3vw;
+        font-size: 2vw;
         overflow-y: auto;
         overflow-x: hidden;
         top: -98%;

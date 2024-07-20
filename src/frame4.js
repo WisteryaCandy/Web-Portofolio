@@ -157,6 +157,7 @@ const Frame4 = () => {
         index={currentIndex}
         plugins={[Thumbnails]}
         thumbnails={{ ref: thumbnailsRef }}
+        showTumbs={false}
         on={{
           click: () => {
            (thumbnailsRef.current?.visible

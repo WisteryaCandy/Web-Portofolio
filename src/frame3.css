@@ -30,7 +30,6 @@
    font-size: 30px;
    -webkit-text-stroke: 1.3px #463F3A;
    color: #F4F3EE;
-   text-shadow: 3px 2px 3px #463F3A;
    transform: translateX(-50%); 
 
    top:5%;
@@ -207,7 +206,6 @@ flex-direction: row;
    font-size: 30px;
    -webkit-text-stroke: 1.3px #463F3A;
    color: #F4F3EE;
-   text-shadow: 3px 2px 3px #463F3A;
    transform: translateX(-50%); 
 
    top:5%;
@@ -383,7 +381,6 @@ transform: translateX(2%);
    font-size: 5vw;
    -webkit-text-stroke: 0.7px #463F3A;
    color: #F4F3EE;
-   text-shadow: 3px 2px 3px #463F3A;
    transform: translateX(90%); 
    top:5%;
 
