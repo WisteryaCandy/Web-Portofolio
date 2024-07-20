@@ -379,20 +379,19 @@
 
     }
     .Square2_gamedevelopment{
-        position: absolute;
-        right: 29.5%;
+        position: relative;
         width: 29.5%;
         height: 48%;
-        left: 26vw;
-        top: 37vw;
+        left: -12.3em;
+        top: 50.5%;
     }
     
     .Square3_gamedevelopment{
       position: absolute;
-      top: 37vw;
+      top: 51.5%;
       width: 29.5%;
       height: 48%;
-      left: 0vw;
+      left: 0vh;
     }
     .Description_gamedevelopment{
         position: relative;
