@@ -31,7 +31,7 @@ function Frame1() {
             <a href="mailto:dariawisterya@gmail.com" className="button1_frame1">Hire me</a>
           </div>
           <div className="button2_frame1 effect_frame1 effect-4">
-            <a href="./assets/Cv.pdf" download="my_cv.pdf"  style={{ textDecorationStyle: 'none'}}>Get CV</a>
+            <a href="./assets/my_cv.pdf" download="my_cv.pdf"  style={{ textDecorationStyle: 'none'}}>Get CV</a>
           </div>
         </div>
         
